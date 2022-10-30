@@ -2,34 +2,313 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/styles.css" />
-
-    <title>Monk's Belt</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
-  <body>
-   <!-- Checkerboard -->
-   <div class="checkerboard">
 
-      <!-- //Top Line -->
-      <div class="container" id="grid-height-1">
-        <div class="blank rec-1">&nbsp</div>
-        <div class="rec rec-1">&nbsp</div>
-        <div class="blank rec-1">&nbsp</div>
+  <body>
+    <!-- <div class="checkerboard">
+     
+      <div class="container">
+        <div class="blank rec-1" id="btn">&nbsp</div>
+        <div class="rec rec-1" id="btn1">&nbsp</div>
+        <div class="blank rec-1" id="btn">&nbsp</div>
       </div>
-      <div class="container" id="grid-height-1">
-        <div class="rec rec-1">&nbsp</div>
-        <div class="blank rec-1">&nbsp</div>
-        <div class="rec rec-1">&nbsp</div>
+      <div class="container">
+        <div class="rec rec-1" id="btn">&nbsp</div>
+        <div class="blank rec-1" id="btn">&nbsp</div>
+        <div class="rec rec-1" id="btn">&nbsp</div>
       </div>
-      <div class="container" id="grid-height-1">
-        <div class="blank rec-1">&nbsp</div>
-        <div class="rec rec-1">&nbsp</div>
-        <div class="blank rec-1">&nbsp</div>
+      <div class="container">
+        <div class="blank rec-1" id="btn">&nbsp</div>
+        <div class="rec rec-1" id="btn">&nbsp</div>
+        <div class="blank rec-1" id="btn">&nbsp</div>
       </div>
-   
+      <div id="box">Some text here</div>
+      <button id="btn">Button</button>
+
+    </div> -->
+    <!-- </div> -->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <div class="checkerboard">
+      <div class="container">
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
       </div>
+      <div class="container">
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+      </div>
+      <div class="container">
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+      </div>
+      <div class="container">
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+      </div>
+      <div class="container">
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+      </div>
+      <div class="container">
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+      </div>
+      <div class="container">
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+      </div>
+      <div class="container">
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+      </div>
+      <div class="container">
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+      </div>
+      <div class="container">
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+        <div class="item rec">&nbsp</div>
+        <div class="item blank">&nbsp</div>
+      </div>
+      
+  
+    </div>
+
+    <!-- Javascript -->
+    <script src="index.js"></script>
   </body>
 </html>
